@@ -1,7 +1,7 @@
 {
-  "_id": 1001,
-  "name": "Janitza",
-  "description": "MEK_Janitza",
+  "_id": 1004,
+  "name": "RID_GENSET",
+  "description": "MEK_RID_GENSET",
   "properties": [
     {
       "id": 1,
@@ -13,7 +13,7 @@
       "id": 2,
       "name": "Тип прибора",
       "type_id": 1,
-      "value": "UMG604"
+      "value": "xxxxxx"
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
     },
     {
       "name": "ExecName",
-      "value": "/mnt/data/mek/apps/jan_modbus_tcp_rpi_linux",
+      "value": "/mnt/data/mek/apps/rid_modbus_rtu_over_tcp_rpi_linux",
       "type_id": 8
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "name": "ExecArgs",
-      "value": "[\"-ip=10.10.12.20\"]",
+      "value": "[\"-ip=10.10.12.26:2001\",\"-r=3\"]",
       "type_id": 8
     },
     {
