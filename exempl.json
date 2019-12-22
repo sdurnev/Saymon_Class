@@ -1,0 +1,45 @@
+{
+  "_id": 1001,
+  "name": "Janitza",
+  "description": "MEK_Janitza",
+  "properties": [
+    {
+      "id": 1,
+      "name": "IP-адрес",
+      "type_id": 1,
+      "value": "10.10.12.20"
+    },
+    {
+      "id": 2,
+      "name": "Тип прибора",
+      "type_id": 1,
+      "value": "UMG604"
+    },
+    {
+      "id": 3,
+      "name": "SN",
+      "type_id": 1,
+      "value": "xxxxxxxxx"
+    },
+    {
+      "id": 4,
+      "name": "Следующая поверка",
+      "type_id": 1,
+      "value": "xxxxxxxxx"
+    }
+  ],
+  "operations": [
+    {
+      "name": "Бесполезный пинг",
+      "type": 2,
+      "parameters": {
+        "path": "ping -c 4",
+        "args": [
+          "{{properties.IP-адрес}}"
+        ]
+      }
+    }
+  ]
+}
+
+
