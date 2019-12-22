@@ -1,0 +1,66 @@
+{
+  "_id": 1002,
+  "name": "BACS",
+  "description": "MEK_BACS",
+  "properties": [
+    {
+      "id": 1,
+      "name": "IP-адрес",
+      "type_id": 1,
+      "value": "10.10.12.20"
+    },
+    {
+      "id": 2,
+      "name": "Тип прибора",
+      "type_id": 1,
+      "value": "xxxxxx"
+    },
+    {
+      "id": 3,
+      "name": "SN",
+      "type_id": 1,
+      "value": "xxxxxxxxx"
+    },
+    {
+      "id": 4,
+      "name": "Следующая поверка",
+      "type_id": 1,
+      "value": "xxxxxxxxx"
+    },
+    {
+      "name": "TaskType",
+      "value": "exec",
+      "type_id": 8
+    },
+    {
+      "name": "ExecName",
+      "value": "/mnt/data/mek/apps/generix_bacs_modbus_tcp_rpi_linux",
+      "type_id": 8
+    },
+    {
+      "name": "ExecType",
+      "value": "fileSystem",
+      "type_id": 8
+    },
+    {
+      "name": "ExecArgs",
+      "value": "[\"-ip=10.10.12.22\",\"-id=1\",\"-port=502\",\"-m=1\",\"-q=1\"]",
+      "type_id": 8
+    },
+    {
+      "name": "ExecTimeout",
+      "value": "3",
+      "type_id": 8
+    },
+    {
+      "name": "TaskPeriodUnit",
+      "value": "seconds",
+      "type_id": 8
+    },
+    {
+      "name": "TaskPeriodValue",
+      "value": "20",
+      "type_id": 8
+    }
+  ]
+}
