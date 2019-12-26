@@ -34,7 +34,7 @@
     },
     {
       "name": "ExecName",
-      "value": "/mnt/data/mek/apps/jan_modbus_tcp_rpi_linux",
+      "value": "/mnt/data/mek/apps/jan_modbus_tcp",
       "type_id": 8
     },
     {

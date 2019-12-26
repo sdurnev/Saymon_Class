@@ -34,7 +34,7 @@
     },
     {
       "name": "ExecName",
-      "value": "/mnt/data/mek/apps/rid_modbus_rtu_over_tcp_rpi_linux",
+      "value": "/mnt/data/mek/apps/rid_modbus_rtu_over_tcp",
       "type_id": 8
     },
     {

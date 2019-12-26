@@ -1,7 +1,7 @@
 {
-  "_id": 1002,
-  "name": "BACS",
-  "description": "MEK_BACS",
+  "_id": 1006,
+  "name": "EFORE",
+  "description": "MEK_EFORE OPUS",
   "properties": [
     {
       "id": 1,
@@ -34,7 +34,7 @@
     },
     {
       "name": "ExecName",
-      "value": "/mnt/data/mek/apps/generix_bacs_modbus_tcp_rpi_linux",
+      "value": "/mnt/data/mek/apps/opus_snmp",
       "type_id": 8
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "name": "ExecArgs",
-      "value": "[\"-ip=10.10.12.22\",\"-id=1\",\"-port=502\",\"-m=1\",\"-q=1\"]",
+      "value": "[\"-ip=192.168.10.10\", \"-port=161\", \"-com=public\", \"-type=2\"]",
       "type_id": 8
     },
     {
