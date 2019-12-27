@@ -44,7 +44,7 @@
     },
     {
       "name": "ExecArgs",
-      "value": "[\"-ip=192.168.10.10\", \"-port=161\", \"-com=public\", \"-type=2\"]",
+      "value": "[\"-ip=192.168.10.10\", \"-port=161\", \"-com=Public\", \"-type=1\"]",
       "type_id": 8
     },
     {
