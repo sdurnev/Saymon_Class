@@ -1,0 +1,98 @@
+{
+  "_id": {
+    "$numberInt": "1009"
+  },
+  "name": "SDMO_GENSET",
+  "description": "MEK_SDMO_GENSET_HTTP",
+  "properties": [
+    {
+      "id": {
+        "$numberInt": "1"
+      },
+      "name": "IP-адрес",
+      "type_id": {
+        "$numberInt": "1"
+      },
+      "value": "10.10.12.20"
+    },
+    {
+      "id": {
+        "$numberInt": "2"
+      },
+      "name": "Тип прибора",
+      "type_id": {
+        "$numberInt": "1"
+      },
+      "value": "xxxxxx"
+    },
+    {
+      "id": {
+        "$numberInt": "3"
+      },
+      "name": "SN",
+      "type_id": {
+        "$numberInt": "1"
+      },
+      "value": "xxxxxxxxx"
+    },
+    {
+      "id": {
+        "$numberInt": "4"
+      },
+      "name": "Следующая поверка",
+      "type_id": {
+        "$numberInt": "1"
+      },
+      "value": "xxxxxxxxx"
+    },
+    {
+      "name": "TaskType",
+      "value": "exec",
+      "type_id": {
+        "$numberInt": "8"
+      }
+    },
+    {
+      "name": "ExecName",
+      "value": "/mnt/data/mek/apps/sdmotelys_http/run.sh",
+      "type_id": {
+        "$numberInt": "8"
+      }
+    },
+    {
+      "name": "ExecType",
+      "value": "fileSystem",
+      "type_id": {
+        "$numberInt": "8"
+      }
+    },
+    {
+      "name": "ExecArgs",
+      "value": "[\"172.24.61.60\"]",
+      "type_id": {
+        "$numberInt": "8"
+      }
+    },
+    {
+      "name": "ExecTimeout",
+      "value": "3",
+      "type_id": {
+        "$numberInt": "8"
+      }
+    },
+    {
+      "name": "TaskPeriodUnit",
+      "value": "seconds",
+      "type_id": {
+        "$numberInt": "8"
+      }
+    },
+    {
+      "name": "TaskPeriodValue",
+      "value": "20",
+      "type_id": {
+        "$numberInt": "8"
+      }
+    }
+  ]
+}
