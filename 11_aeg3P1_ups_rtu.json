@@ -1,9 +1,9 @@
 {
   "_id": {
-    "$numberInt": "1010"
+    "$numberInt": "1011"
   },
-  "name": "AEG_UPS_3P",
-  "description": "MEK_AEG_UPS_3P_MODBUS_RTU",
+  "name": "AEG_UPS_3P1",
+  "description": "MEK_AEG_UPS_3P1_MODBUS_RTU",
   "properties": [
     {
       "id": {
@@ -54,7 +54,7 @@
     },
     {
       "name": "ExecName",
-      "value": "/mnt/data/mek/apps/aeg3P_modbus_rtu",
+      "value": "/mnt/data/mek/apps/aeg3P1_modbus_rtu",
       "type_id": {
         "$numberInt": "8"
       }
@@ -68,7 +68,7 @@
     },
     {
       "name": "ExecArgs",
-      "value": "[\"-serial=/dev/ttyRS485-1\", \"-speed=9600\", \"-id=1\", \"-q=65\"]",
+      "value": "[\"-serial=/dev/ttyRS485-1\", \"-speed=9600\", \"-id=0\", \"-q=55\"]",
       "type_id": {
         "$numberInt": "8"
       }
